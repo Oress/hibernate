@@ -1,0 +1,86 @@
+Hibernate:
+    select
+        l1_0.language_id,
+        l1_0.last_update,
+        l1_0.name
+    from
+        language l1_0
+    where
+        l1_0.language_id=?
+Hibernate:
+    insert
+    into
+        film
+        (description,language_id,last_update,length,release_year,rental_duration,rental_rate,replacement_cost,special_features,title)
+    values
+        (?,?,?,?,?,?,?,?,?,?)
+Hibernate:
+    insert
+    into
+        film_actor
+        (last_update,actor_id,film_id)
+    values
+        (?,?,?)
+Hibernate:
+    insert
+    into
+        film_actor
+        (last_update,actor_id,film_id)
+    values
+        (?,?,?)
+Hibernate:
+    insert
+    into
+        film_actor
+        (last_update,actor_id,film_id)
+    values
+        (?,?,?)
+Hibernate:
+    insert
+    into
+        film_actor
+        (last_update,actor_id,film_id)
+    values
+        (?,?,?)
+Hibernate:
+    insert
+    into
+        film_actor
+        (last_update,actor_id,film_id)
+    values
+        (?,?,?)
+Hibernate:
+    insert
+    into
+        film_actor
+        (last_update,actor_id,film_id)
+    values
+        (?,?,?)
+Hibernate:
+    insert
+    into
+        film_actor
+        (last_update,actor_id,film_id)
+    values
+        (?,?,?)
+Hibernate:
+    insert
+    into
+        film_actor
+        (last_update,actor_id,film_id)
+    values
+        (?,?,?)
+Hibernate:
+    insert
+    into
+        film_actor
+        (last_update,actor_id,film_id)
+    values
+        (?,?,?)
+Hibernate:
+    insert
+    into
+        film_actor
+        (last_update,actor_id,film_id)
+    values
+        (?,?,?)

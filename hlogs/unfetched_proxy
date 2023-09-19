@@ -1,0 +1,36 @@
+Hibernate:
+    select
+        f1_0.film_id,
+        f1_0.description,
+        f1_0.language_id,
+        f1_0.last_update,
+        f1_0.length,
+        f1_0.release_year,
+        f1_0.rental_duration,
+        f1_0.rental_rate,
+        f1_0.replacement_cost,
+        f1_0.special_features,
+        f1_0.title
+    from
+        film f1_0
+    where
+        f1_0.film_id=?
+Hibernate:
+    select
+        f1_0.film_id,
+        f1_0.actor_id,
+        f1_0.last_update
+    from
+        film_actor f1_0
+    where
+        f1_0.film_id=?
+1
+10
+20
+30
+40
+53
+108
+162
+188
+198
